@@ -22,6 +22,8 @@ permalink: /teaching/2023-spring-advanced-algebra-II
 
 ## Lecture Notes
 
+所有讲义仅供学习交流, 只代表作者个人观点, 不能作为备考依据. 有疑问的可以邮件或习题课现场讨论.
+
 |No.|Date|Description|Link|Remark|
 |:---:|:----|:----|:----|:----|
 |1|Mar. 2|Chapter 7, Section 1-4| [Notes](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1.pdf)||
