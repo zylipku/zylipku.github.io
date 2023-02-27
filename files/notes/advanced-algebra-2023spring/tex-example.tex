@@ -1,0 +1,82 @@
+\documentclass{article}
+
+\usepackage{ctex}
+
+\usepackage{enumerate}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{geometry}
+\usepackage{amsmath}
+% \usepackage{mathrsfs}
+\geometry{
+    a4paper,
+    left=20mm,
+    right=20mm,
+    top=20mm,
+    }
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs=true}
+\newtheorem{thm}{Theorem}[subsection]
+\newtheorem{Def}[thm]{Definition}
+\newtheorem{Lem}[thm]{Lemma}
+\newtheorem{Prop}[thm]{Proposition}
+\newtheorem{Thm}[thm]{Theorem}
+\newtheorem{Corl}[thm]{Corollary}
+\newtheorem{Rem}[thm]{Remark}
+\newtheorem{prob}{Theorem}[]
+\newtheorem{Prob}[prob]{题目}
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=red,
+}
+\urlstyle{same}
+
+%%% Declare %%%
+\newcommand{\md}{\mathrm{d}}
+\newcommand{\mR}{\mathbb{R}}
+\newcommand{\trans}{\mathsf{T}}
+\newcommand{\me}{\mathrm{e}}
+\newcommand{\mi}{\mathrm{i}}
+%%% Declare %%%
+
+%%% custom operator %%%
+\newcommand{\mF}{\mathbb{F}}
+\newcommand{\mC}{\mathbb{C}}
+\newcommand{\mZ}{\mathbb{Z}}
+
+
+%%$ custom operator %%%
+
+%%% document info %%%
+\title{高等代数(II)第一次作业}
+\author{张三\hspace*{5ex}数学科学学院}
+\date{\href{mailto:220000000x@stu.pku.edu.cn}{220000000x@stu.pku.edu.cn}}
+%%%
+
+
+\begin{document}
+\maketitle
+% \tableofcontents
+\begin{Prob}[P3 第7题]在环$R$中, 证明
+    \[0a=a0=0,\,\forall a\in R.\]
+\end{Prob}
+\begin{proof}
+    由于
+    \[0a=(0+0)a=0a+0a,\]
+    那么
+    \[0=0a+(-0a)=0a+0a+(-0a)=0a.\]
+    同理可得$a0=0$, 故原命题成立.
+\end{proof}
+\begin{Prob}[P3 第9题]在含有乘法单位元$1(\neq0)$的环$R$中, 可逆元一定不是零因子.
+\end{Prob}
+\begin{proof}
+    略.
+\end{proof}
+\end{document}
