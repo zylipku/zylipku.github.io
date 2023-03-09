@@ -30,7 +30,7 @@ permalink: /teaching/2023-spring-advanced-algebra-II
 
 |No.|Date|Description|Link|Remark|
 |:---:|:----|:----|:----|:----|
-|1|Mar. 2|Chapter 7, Section 1-4 (带余除法, gcd)| [Notes](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1.pdf)||
+|1|Mar. 2|Chapter 7, Section 1-4 (带余除法, gcd)| [Notes](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1.pdf) [Ex](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1Remark.pdf)||
 |2|Mar. 16||||
 |3|Mar. 30||||
 |4|Apr. 13||||
