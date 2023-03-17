@@ -11,6 +11,10 @@ permalink: /teaching/2023-spring-advanced-algebra-II
 
 独立完成, 字迹工整, 包含必要的文字说明, 使用语言仅限现代汉语和英语.
 
+### Clarification on LLM
+
+Assignments that include text generated from any large-scale language model (LLM) such as ChatGPT and its variants are strictly prohibited. However, you are allowed to use LLMs for generating templates for $\TeX$ scripts or polishing your assignments.
+
 ## 作业提交方式
 
 提交方式在以下方案中任选其一, 其中纸质作业需提交订/夹好的若干张作业纸或者作业本, 大小控制在 A4 或 B5 左右.
