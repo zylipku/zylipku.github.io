@@ -13,7 +13,7 @@ permalink: /teaching/2023-spring-advanced-algebra-II
 
 ### Clarification on LLM
 
-Assignments that include text generated from any large-scale language model (LLM) such as ChatGPT and its variants are strictly prohibited. However, you are allowed to use LLMs for generating templates for $\TeX$ scripts or polishing your assignments.
+<ins> Assignments that include text generated from any large-scale language model (LLM) such as ChatGPT and its variants are strictly prohibited. However, you are allowed to use LLMs for generating templates for $\TeX$ scripts or polishing your assignments. </ins>
 
 ## 作业提交方式
 
