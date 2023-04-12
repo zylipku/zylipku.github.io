@@ -37,8 +37,8 @@ permalink: /teaching/2023-spring-advanced-algebra-II
 |1|Mar. 2|Chapter 7, Section 1-4 (带余除法, 最大公约式)| [#1](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1.pdf) |[Ex 1](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1Remark.pdf)||
 |2|Mar. 16|Chapter 7, Section 5-9 (重因子, 不可约性)| [#2](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx2.pdf) |[Ex 2](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx2Remark.pdf)||
 |3|Mar. 30|Chapter 7, Section 10-11 (对称多项式, $\lambda$-阵)|[#3](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx3.pdf)|||
-|4|Apr. 13|||||
-|-|Apr. 25|Midterm (范围: Chapter 7-8及补充的内容)
+|4|Apr. 13|Chapter 8 (线性空间,子空间,商空间)||||
+|-|Apr. 25|Midterm (范围: Chapter 7-8 及补充的内容)
 |5|Apr. 27|||||
 |6|May 11|||||
 |7|May 25|||||
