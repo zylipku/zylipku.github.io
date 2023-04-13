@@ -32,15 +32,15 @@ permalink: /teaching/2023-spring-advanced-algebra-II
 
 所有讲义仅供学习交流, 只代表作者个人观点, 不能作为备考依据. 有疑问的可以邮件或习题课现场讨论.
 
-|No.|Date|Description|Note|Ex. feedback|Remark|
-|:---:|:----|:----|:----|:----|
-|1|Mar. 2|Chapter 7, Section 1-4 (带余除法, 最大公约式)| [#1](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1.pdf) |[Ex 1](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1Remark.pdf)||
-|2|Mar. 16|Chapter 7, Section 5-9 (重因子, 不可约性)| [#2](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx2.pdf) |[Ex 2](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx2Remark.pdf)||
-|3|Mar. 30|Chapter 7, Section 10-11 (对称多项式, $\lambda$-阵)|[#3](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx3.pdf)|||
-|4|Apr. 13|Chapter 8 (线性空间,子空间,商空间)||||
-|-|Apr. 25|Midterm (范围: Chapter 7-8 及补充的内容)
-|5|Apr. 27|||||
-|6|May 11|||||
-|7|May 25|||||
-|8|Jun. 8|||||
-|9|TBD|||||
+|  No.  | Date    | Description                                         | Note                                                                  | Ex. feedback                                                                  | Remark |
+| :---: | :------ | :-------------------------------------------------- | :-------------------------------------------------------------------- | :---------------------------------------------------------------------------- | :----- |
+|   1   | Mar. 2  | Chapter 7, Section 1-4 (带余除法, 最大公约式)       | [#1](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1.pdf) | [Ex 1](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx1Remark.pdf) |        |
+|   2   | Mar. 16 | Chapter 7, Section 5-9 (重因子, 不可约性)           | [#2](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx2.pdf) | [Ex 2](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx2Remark.pdf) |        |
+|   3   | Mar. 30 | Chapter 7, Section 10-11 (对称多项式, $\lambda$-阵) | [#3](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx3.pdf) | [Ex 3](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx3Remark.pdf) |        |
+|   4   | Apr. 13 | Chapter 8 (线性空间,子空间,商空间)                  | [#4](/files/notes/advanced-algebra-2023spring/AdvancedAlgebraEx4.pdf) |                                                                               |        |
+|   -   | Apr. 25 | Midterm (范围: Chapter 7-8 及补充的内容)            |                                                                       |                                                                               |        |
+|   5   | Apr. 27 |                                                     |                                                                       |                                                                               |        |
+|   6   | May 11  |                                                     |                                                                       |                                                                               |        |
+|   7   | May 25  |                                                     |                                                                       |                                                                               |        |
+|   8   | Jun. 8  |                                                     |                                                                       |                                                                               |        |
+|   9   | TBD     |                                                     |                                                                       |                                                                               |        |
