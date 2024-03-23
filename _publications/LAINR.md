@@ -3,11 +3,11 @@ title: "Latent assimilation with implicit neural representations for unknown dyn
 collection: publications
 permalink: /publication/LAINR
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2023-09-18
+date: 2024-03-22
 # venue: 'Journal 1'
-venue: 'arXiv'
-paperurl: 'http://arxiv.org/pdf/2309.09574.pdf'
-citation: 'Li, Z., Dong, B., & Zhang, P. (2023). Latent assimilation with implicit neural representations for unknown dynamics. arXiv preprint arXiv:2309.09574'
+venue: 'Journal of Computational Physics'
+paperurl: 'https://doi.org/10.1016/j.jcp.2024.112953'
+citation: 'Li, Z., Dong, B., & Zhang, P. (2023). Latent assimilation with implicit neural representations for unknown dynamics.  Journal of Computational Physics, page 112953'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
