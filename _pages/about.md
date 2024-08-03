@@ -10,6 +10,7 @@ redirect_from:
 
 * Welcome to **zylipku.github.io**. This is the homepage for Zhuoyuan Li.
 * I am currently a PhD student from School of Mathematical Sciences, Peking University. (Office: Room 202, No. 20 Building)
+* You may reach me via email: zy {dot} li {at} stu {dot} pku {dot} edu {dot} cn
 
 ## Research interests
 
