@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Zhuoyuan Li"
   avatar           : "profile.png"
-  bio              : "PhD Student of Peking University"
+  bio              : "Ph.D. Student, Peking University"
   location         : "Beijing, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=PoLNtXIAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
