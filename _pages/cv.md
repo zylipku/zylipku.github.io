@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+See my [CV](/files/CV.pdf) for more information.
+
 ## Education
 
 * Ph.D in Mathematics, Peking University, 2025 (expected) (Supervisor: Professor [Pingwen Zhang](https://www.math.pku.edu.cn/pzhang/en/), Professor [Bin Dong](http://faculty.bicmr.pku.edu.cn/~dongbin/))
