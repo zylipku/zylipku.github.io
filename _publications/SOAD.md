@@ -1,5 +1,5 @@
 ---
-title: "State-observation augmented diffusion model for nonlinear assimilation"
+title: "State-observation augmented diffusion model for nonlinear assimilation with unknown dynamics"
 collection: publications
 permalink: /publication/SOAD
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
@@ -7,7 +7,7 @@ date: 2024-07-31
 # venue: 'Journal 1'
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2407.21314.pdf'
-citation: 'Li, Z., Dong, B., & Zhang, P. (2024). State-observation augmented diffusion model for nonlinear assimilation. arXiv preprint arXiv:2407.21314'
+citation: 'Li, Z., Dong, B., & Zhang, P. (2024). State-observation augmented diffusion model for nonlinear assimilation with unknown dynamics. arXiv preprint arXiv:2407.21314'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
