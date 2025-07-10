@@ -9,8 +9,8 @@ redirect_from:
 ---
 
 * Welcome to **zylipku.github.io**. This is the homepage for Zhuoyuan Li.
-* I am currently a Ph.D. student from School of Mathematical Sciences, Peking University. (Office: Room 202, No. 20 Building)
-* You may reach me via email: zy {dot} li {at} stu {dot} pku {dot} edu {dot} cn
+* I am currently a Research Fellow working at the Institute for Functional Intelligent Materials (IFIM), National University of Singapore.
+* You may reach me via email: zylipku {at} outlook {dot} com
 
 ## Research interests
 
