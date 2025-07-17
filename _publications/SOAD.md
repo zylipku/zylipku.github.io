@@ -3,11 +3,11 @@ title: "State-observation augmented diffusion model for nonlinear assimilation w
 collection: publications
 permalink: /publication/SOAD
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2024-07-31
+date: 2025-07-11
 # venue: 'Journal 1'
-venue: 'arXiv'
-paperurl: 'https://arxiv.org/pdf/2407.21314.pdf'
-citation: 'Li, Z., Dong, B., & Zhang, P. (2024). State-observation augmented diffusion model for nonlinear assimilation with unknown dynamics. arXiv preprint arXiv:2407.21314'
+venue: 'Journal of Computational Physics'
+paperurl: 'https://doi.org/10.1016/j.jcp.2025.114240'
+citation: 'Li, Z., Dong, B., & Zhang, P. (2024). State-observation augmented diffusion model for nonlinear assimilation with unknown dynamics. <i>Journal of Computational Physics</i>, page 114240'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
