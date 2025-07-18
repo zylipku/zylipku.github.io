@@ -9,10 +9,13 @@ redirect_from:
 ---
 
 * Welcome to **zylipku.github.io**. This is the homepage for Zhuoyuan Li.
-* I am currently a Research Fellow working at the Institute for Functional Intelligent Materials (IFIM), National University of Singapore.
-* You may reach me via email: zylipku {at} outlook {dot} com
+* I am currently a Research Fellow working at the Institute for Functional Intelligent Materials (I-FIM), National University of Singapore.
+* You may reach me via email: zy {dot} li {at} nus {dot} edu {dot} sg
 
 ## Research interests
 
-* applications of deep learning on PDE problems
+Machine learning in scientific computing, including
+
+* PDE solving and inverse problem
 * data assimilation and weather forecasting
+* sequence modeling
