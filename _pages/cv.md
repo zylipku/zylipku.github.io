@@ -9,11 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-See my [Curriculum Vitae](/files/cv.pdf) for more information.
+For more details, please refer to the pdf file [Curriculum Vitae](/files/cv.pdf).
+
+## Work experience
+
+* Research fellow, Institute for Functional Intelligent Materials, National University of Singapore (Advisors: Prof. [Kedar Hippalgaonkar](https://ifim.nus.edu.sg/people/kedar-hippalgaonkar-3/) Prof. [Qianxiao Li](https://blog.nus.edu.sg/qianxiaoli/))
 
 ## Education
 
-* Ph.D in Mathematics, Peking University, 2025 (expected) (Supervisors: Professor [Pingwen Zhang](https://www.math.pku.edu.cn/pzhang/en/), Professor [Bin Dong](http://faculty.bicmr.pku.edu.cn/~dongbin/))
+* Ph.D in Computational mathematics, Peking University, June 2025 (Supervisors: Prof. [Pingwen Zhang](https://www.math.pku.edu.cn/pzhang/en/), Prof. [Bin Dong](http://faculty.bicmr.pku.edu.cn/~dongbin/))
 
 ## Teaching
 
