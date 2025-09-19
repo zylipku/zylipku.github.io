@@ -7,7 +7,7 @@ date: 2023-07-26
 # venue: 'Journal 1'
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2307.14395.pdf'
-citation: 'Huang, X., Li, Z., Liu, H., Wang, Z., Zhou, H., Dong, B., & Hua, B. (2023). Learning to simulate partially known spatio-temporal dynamics with trainable difference operators. arXiv preprint arXiv:2307.14395'
+citation: 'Huang, X., Li, Z., Liu, H., Wang, Z., Zhou, H., Dong, B., & Hua, B. (2023). Learning to simulate partially known spatio-temporal dynamics with trainable difference operators. arXiv preprint arXiv:2307.14395.'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 

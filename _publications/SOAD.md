@@ -7,7 +7,7 @@ date: 2025-07-15
 # venue: 'Journal 1'
 venue: 'Journal of Computational Physics'
 paperurl: 'https://doi.org/10.1016/j.jcp.2025.114240'
-citation: 'Li, Z., Dong, B., & Zhang, P. (2025). State-observation augmented diffusion model for nonlinear assimilation with unknown dynamics. <i>Journal of Computational Physics</i>, page 114240'
+citation: 'Li, Z., Dong, B., & Zhang, P. (2025). State-observation augmented diffusion model for nonlinear assimilation with unknown dynamics. <i>Journal of Computational Physics</i>, page 114240.'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
