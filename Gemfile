@@ -28,4 +28,10 @@ end
 
 gem 'tzinfo-data'
 
-gem "webrick", "~> 1.7"
+gem "webrick", ">= 1.8.2"
+gem "nokogiri", ">= 1.18.9"
+gem "addressable", ">= 2.9.0"
+gem "rexml", ">= 3.3.9"
+gem "commonmarker", ">= 0.23.10"
+gem "faraday", ">= 2.14.1"
+gem "activesupport", ">= 7.2.3.1"
