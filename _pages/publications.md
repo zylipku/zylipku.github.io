@@ -11,6 +11,11 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+<div class="pub-list">
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% for post in sorted_pubs %}
+  {% include publication-card.html %}
 {% endfor %}
+</div>
+
+{% include pdfjs-render.html %}

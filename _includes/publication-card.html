@@ -1,0 +1,60 @@
+{% include base_path %}
+
+{% assign venue_lower = post.venue | downcase %}
+{% if venue_lower contains "arxiv" %}
+  {% assign venue_type = "arxiv" %}
+  {% assign venue_label = "arXiv" %}
+{% else %}
+  {% assign venue_type = "journal" %}
+  {% assign venue_label = post.venue %}
+{% endif %}
+
+<article class="pub-card{% unless post.figures and post.figures.size > 0 %} pub-card--no-media{% endunless %}" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  {% if post.figures and post.figures.size > 0 %}
+    <div class="pub-card__media pub-card__media--{{ post.figures.size }}">
+      {% for fig in post.figures %}
+        {% if fig contains "://" %}
+          {% assign fig_url = fig %}
+        {% else %}
+          {% assign fig_url = fig | prepend: base_path %}
+        {% endif %}
+        <a class="pub-card__figure" href="{{ post.url | prepend: base_path }}" rel="permalink">
+          {% assign fig_lower = fig | downcase %}
+          {% if fig_lower contains ".pdf" %}
+            <canvas class="pub-card__pdf" data-pdf-src="{{ fig_url }}" aria-label="Figure for {{ post.title | escape }}"></canvas>
+          {% else %}
+            <img src="{{ fig_url }}" alt="Figure for {{ post.title | escape }}" loading="lazy" />
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="pub-card__body">
+    <div class="pub-card__meta">
+      <span class="pub-badge pub-badge--{{ venue_type }}">{{ venue_label }}</span>
+      <span class="pub-card__date">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+    </div>
+
+    <h3 class="pub-card__title" itemprop="headline">
+      <a href="{{ post.url | prepend: base_path }}" rel="permalink">
+        {{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}
+      </a>
+    </h3>
+
+    {% if post.citation %}
+      <p class="pub-card__citation">{{ post.citation }}</p>
+    {% endif %}
+
+    <div class="pub-card__links">
+      {% if post.paperurl %}
+        <a class="pub-card__link" href="{{ post.paperurl }}" target="_blank" rel="noopener">
+          <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Paper
+        </a>
+      {% endif %}
+      <a class="pub-card__link" href="{{ post.url | prepend: base_path }}">
+        <i class="fa fa-info-circle" aria-hidden="true"></i> Abstract
+      </a>
+    </div>
+  </div>
+</article>

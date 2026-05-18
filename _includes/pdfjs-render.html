@@ -1,0 +1,46 @@
+{% raw %}
+<script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+<script>
+(function () {
+  var PDFJS_VERSION = "3.11.174";
+  var WORKER_URL = "https://unpkg.com/pdfjs-dist@" + PDFJS_VERSION + "/build/pdf.worker.min.js";
+
+  var TARGET_PIXEL_WIDTH = 1800;
+
+  function renderPdf(canvas) {
+    var src = canvas.getAttribute("data-pdf-src");
+    if (!src) return;
+    pdfjsLib.getDocument(src).promise.then(function (pdf) {
+      return pdf.getPage(1);
+    }).then(function (page) {
+      var baseViewport = page.getViewport({ scale: 1 });
+      var scale = TARGET_PIXEL_WIDTH / baseViewport.width;
+      var viewport = page.getViewport({ scale: scale });
+      canvas.width = viewport.width;
+      canvas.height = viewport.height;
+      canvas.style.width = "100%";
+      canvas.style.height = "auto";
+      var ctx = canvas.getContext("2d");
+      return page.render({ canvasContext: ctx, viewport: viewport }).promise;
+    }).catch(function (err) {
+      console.warn("PDF thumbnail failed for", src, err);
+    });
+  }
+
+  function init() {
+    if (typeof pdfjsLib === "undefined") {
+      console.error("pdf.js library not loaded");
+      return;
+    }
+    pdfjsLib.GlobalWorkerOptions.workerSrc = WORKER_URL;
+    document.querySelectorAll("canvas[data-pdf-src]").forEach(renderPdf);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+{% endraw %}

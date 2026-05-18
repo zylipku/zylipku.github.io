@@ -52,6 +52,30 @@ layout: default
         </header>
       {% endunless %}
 
+      {% if page.collection == 'publications' and page.figures and page.figures.size > 0 %}
+        <section class="pub-figures pub-figures--{{ page.figures.size }}">
+          {% for fig in page.figures %}
+            {% if fig contains "://" %}
+              {% assign fig_url = fig %}
+            {% else %}
+              {% assign fig_url = fig | prepend: base_path %}
+            {% endif %}
+            <figure class="pub-figure">
+              {% assign fig_lower = fig | downcase %}
+              {% if fig_lower contains ".pdf" %}
+                <a href="{{ fig_url }}" target="_blank" rel="noopener">
+                  <canvas class="pub-figure__pdf" data-pdf-src="{{ fig_url }}" aria-label="Figure for {{ page.title | escape }}"></canvas>
+                </a>
+              {% else %}
+                <a href="{{ fig_url }}" target="_blank" rel="noopener">
+                  <img src="{{ fig_url }}" alt="Figure for {{ page.title | escape }}" loading="lazy" />
+                </a>
+              {% endif %}
+            </figure>
+          {% endfor %}
+        </section>
+      {% endif %}
+
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
@@ -73,6 +97,10 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
+
+  {% if page.collection == 'publications' and page.figures and page.figures.size > 0 %}
+    {% include pdfjs-render.html %}
+  {% endif %}
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
