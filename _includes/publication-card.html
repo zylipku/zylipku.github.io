@@ -1,7 +1,10 @@
 {% include base_path %}
 
 {% assign venue_lower = post.venue | downcase %}
-{% if venue_lower contains "arxiv" %}
+{% if venue_lower contains "biorxiv" %}
+  {% assign venue_type = "arxiv" %}
+  {% assign venue_label = "bioRxiv" %}
+{% elsif venue_lower contains "arxiv" %}
   {% assign venue_type = "arxiv" %}
   {% assign venue_label = "arXiv" %}
 {% else %}

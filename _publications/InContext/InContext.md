@@ -8,7 +8,7 @@ venue: 'arxiv'
 paperurl: 'https://arxiv.org/pdf/2604.23098'
 figures:
   - /publications/InContext/Figure1a.png
-citation: 'Li, L., Li, Z., Li, S., Zhan, K., Gao, H., Chen, C., & Yang, L. (2026). In-context modeling as a retrain-free paradigm for foundation models in computational science. arXiv preprint arXiv:2604.23098.'
+citation: 'Li, L., <b>Li, Z.</b>, Li, S., Zhan, K., Gao, H., Chen, C., & Yang, L. (2026). In-context modeling as a retrain-free paradigm for foundation models in computational science. arXiv preprint arXiv:2604.23098.'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 

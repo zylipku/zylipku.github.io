@@ -9,7 +9,7 @@ venue: 'Journal of Computational Physics'
 paperurl: 'https://doi.org/10.1016/j.jcp.2024.112953'
 figures:
   - /publications/LAINR/SINR.pdf
-citation: 'Li, Z., Dong, B., & Zhang, P. (2024). Latent assimilation with implicit neural representations for unknown dynamics. <i>Journal of Computational Physics</i>, page 112953.'
+citation: '<b>Li, Z.</b>, Dong, B., & Zhang, P. (2024). Latent assimilation with implicit neural representations for unknown dynamics. <i>Journal of Computational Physics</i>, page 112953.'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 

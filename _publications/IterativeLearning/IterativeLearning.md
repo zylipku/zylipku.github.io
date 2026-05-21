@@ -8,7 +8,7 @@ venue: 'Advances in Neural Information Processing Systems'
 paperurl: 'https://arxiv.org/pdf/2501.18962'
 figures:
   - /publications/IterativeLearning/Iterative.drawio.pdf
-citation: 'Yang, P., Feng, Y., Chen, Z., Wu, Y., & Li, Z. (2025). Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping. in <i>Advances in Neural Information Processing Systems</i>, <b>38</b>.'
+citation: 'Yang, P., Feng, Y., Chen, Z., Wu, Y., & <b>Li, Z.</b> (2025). Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping. in <i>Advances in Neural Information Processing Systems</i>, <b>38</b>.'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
