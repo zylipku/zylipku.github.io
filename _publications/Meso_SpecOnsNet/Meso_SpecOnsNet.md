@@ -3,7 +3,7 @@ title: "Hypothesis-driven construction of mesoscopic dynamics"
 collection: publications
 permalink: /publication/Meso_SpecOnsNet
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2026-04-25
+date: 2026-05-15
 venue: 'arxiv'
 paperurl: 'https://arxiv.org/pdf/2605.16211'
 figures:
