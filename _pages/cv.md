@@ -13,7 +13,7 @@ For more details, please refer to the pdf file [Curriculum Vitae](/files/cv.pdf)
 
 ## Work experience
 
-* Research fellow, Institute for Functional Intelligent Materials, National University of Singapore (Advisors: Prof. [Kedar Hippalgaonkar](https://ifim.nus.edu.sg/people/kedar-hippalgaonkar-3/) Prof. [Qianxiao Li](https://blog.nus.edu.sg/qianxiaoli/))
+* Research fellow, Institute for Functional Intelligent Materials, National University of Singapore (Principal Investigators (PIs): Prof. [Kedar Hippalgaonkar](https://ifim.nus.edu.sg/people/kedar-hippalgaonkar-3/) Prof. [Qianxiao Li](https://blog.nus.edu.sg/qianxiaoli/))
 
 ## Education
 
