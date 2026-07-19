@@ -6,8 +6,8 @@ permalink: /publication/EnCF
 date: 2026-07-14
 venue: 'arxiv'
 paperurl: 'https://arxiv.org/pdf/2607.12975'
-# figures:
-#   - /publications/InContext/Figure1a.png
+figures:
+  - /publications/EnCF/encf.png
 citation: '<b>Li, Z.</b>, Zhao, Y., & Li, M. (2026). Ensemble Controlled-Flow Filtering for Implicit Data Assimilation. arXiv preprint arXiv:2607.12975.'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
