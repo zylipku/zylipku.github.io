@@ -1,5 +1,5 @@
 ---
-title: "Advanced Algebra (II) (Exercises)-Spring 2023"
+title: "Advanced Algebra (II) (Exercises) [2023 Spring]"
 layout: archive
 permalink: /teaching/2023-spring-advanced-algebra-II
 ---

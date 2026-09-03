@@ -1,7 +1,7 @@
 ---
-title: "Advanced Algebra (I) (Exercises)-Fall 2022"
+title: "Advanced Algebra (I) (Exercises) [2022 Fall]"
 layout: archive
-permalink: /teaching/2022-dall-advanced-algebra-I
+permalink: /teaching/2022-fall-advanced-algebra-I
 ---
 
 习题课讲稿见：[github repo](https://github.com/zylipku/advanced-algebra-ex-pku2022fall)
