@@ -1,17 +1,17 @@
 ---
-title: "Fluorescent protein-based ticker tapes for multiplexed recordings of transcriptional histories in single cells in culture and in vivo"
+title: "Fluorescent protein ticker tape (FPTT): Multiplexed recording of transcriptional dynamics in living cells and in vivo"
 collection: publications
 permalink: /publication/FPTT
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2025-09-12
-venue: 'bioRxiv'
-paperurl: 'https://www.biorxiv.org/content/10.1101/2025.09.08.675004v1'
+date: 2026-09-02
+venue: 'Science Advances'
+paperurl: 'https://www.science.org/doi/abs/10.1126/sciadv.aef9406'
 # figures:
 #   - /publications/InContext/Figure1a.png
-citation: 'Wang, R., Jiang, J., <b>Li, Z.</b>, Liu, T., Wang, Y., Xie, M., & Piatkevich, K. D. (2025). Fluorescent protein-based ticker tapes for multiplexed recordings of transcriptional histories in single cells in culture and in vivo. bioRxiv 2025.09.08.675004.'
+citation: 'Wang, R., Jiang, J., <b>Li, Z.</b>, Liu, T., Wang, Y., Xie, M., & Piatkevich, K. D. (2026). Fluorescent protein ticker tape (FPTT): Multiplexed recording of transcriptional dynamics in living cells and in vivo. Science Advances 12,eaef9406'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-Recording and imaging of promoter activities in real time is critical for deciphering cellular states and dynamic signaling crosstalk, but technologies capable of simultaneously capturing multiple transient events in living cells are lacking. Here, we custom-design fluorescent protein-based ticker tapes (FPTT) for multiplexed and longitudinal recording of physiological activities in single cells. FPTT integrates multi-spectral monomeric fluorescent proteins with self-assembling protein fibers, enabling massively parallel analysis of signaling dynamics under varying cellular conditions. Using FPTT, we were able to log dose-dependent and reversible transcriptional histories of endogenous cFos signaling in primary hippocampus neurons at a 3-hour temporal resolution via biological timestamps and an extended recording time of over 8 days. Furthermore, we expanded the imaging toolset by engineering genetically encoded FPTT variants for human NFκB, JAK/STAT3, mTOR, NFAT and cAMP signaling, allowing for the quantification of potential crosstalk between cFos and NFκB pathways in neurons, multiplexed recording of STAT3- and cAMP-specific promoters during drug-induced liver injury in mice, as well as simultaneous analysis of up to four major signaling pathways involved in experimental T-cell activation. This platform advances single-cell analysis by providing a versatile tool to investigate transcriptional histories and signaling interplay across diverse biological contexts, with broad applications in developmental biology and disease modeling.
+Recording and real-time imaging of promoter activities are critical for deciphering signaling cross-talk, but technologies for simultaneously capturing multiple transient events in living cells are lacking. Here, we design fluorescent protein-based ticker tapes (FPTT) for multiplexed, scalable, longitudinal recording of single-cell physiological activities by integrating multispectral monomeric fluorescent proteins with self-assembling protein fibers. FPTT logged dose-dependent, reversible endogenous cFos transcriptional histories in hippocampal neurons at 3-hour resolution over 8 days. We engineered FPTT variants for human nuclear factor κB (NF-κB), Janus kinase/signal transducer and activator of transcription 3 (STAT3), mechanistic target of rapamycin (mTOR), nuclear factor of activated T cells (NFAT), and adenosine 3′,5′-monophosphate (cAMP) signaling. This expanded toolset enabled quantification of cFos and NF-κB cross-talk in neurons, tracking of STAT3/cAMP dynamics during mouse liver injury, discovery of unexpected NFAT/STAT3 cross-talk, and characterization of cell cycle-dependent oscillating mTOR dynamics. Last, we achieved simultaneous analysis of four major pathways during T cell activation. FPTT provides a versatile platform to investigate transcriptional histories and signaling interplay, with broad applications in developmental biology and disease modeling.
 
 <!-- Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
