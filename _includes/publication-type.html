@@ -1,0 +1,25 @@
+{% comment %}
+  Classify the current `post` (an entry of site.publications) into one of two
+  groups and store the result in `pub_type`:
+
+      "publication"  - peer-reviewed journal / conference paper
+      "preprint"     - arXiv, bioRxiv, medRxiv, SSRN, under review, ...
+
+  Priority:
+    1. explicit front matter          pubtype: preprint   |   pubtype: publication
+    2. venue heuristics               anything containing rxiv / ssrn / preprint /
+                                      under review / submitted, or an empty venue
+    3. default                        publication
+{% endcomment %}
+{% assign pub_type = "publication" %}
+{% if post.pubtype %}
+  {% assign pub_type_raw = post.pubtype | downcase | strip %}
+  {% if pub_type_raw == "preprint" %}
+    {% assign pub_type = "preprint" %}
+  {% endif %}
+{% else %}
+  {% assign pub_venue_lower = post.venue | default: "" | downcase | strip %}
+  {% if pub_venue_lower == "" or pub_venue_lower contains "rxiv" or pub_venue_lower contains "ssrn" or pub_venue_lower contains "preprint" or pub_venue_lower contains "under review" or pub_venue_lower contains "submitted" %}
+    {% assign pub_type = "preprint" %}
+  {% endif %}
+{% endif %}

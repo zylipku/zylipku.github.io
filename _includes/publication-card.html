@@ -1,18 +1,25 @@
 {% include base_path %}
+{% include publication-type.html %}
 
-{% assign venue_lower = post.venue | downcase %}
+{% assign venue_lower = post.venue | default: "" | downcase %}
 {% if venue_lower contains "biorxiv" %}
   {% assign venue_type = "arxiv" %}
   {% assign venue_label = "bioRxiv" %}
+{% elsif venue_lower contains "medrxiv" %}
+  {% assign venue_type = "arxiv" %}
+  {% assign venue_label = "medRxiv" %}
 {% elsif venue_lower contains "arxiv" %}
   {% assign venue_type = "arxiv" %}
   {% assign venue_label = "arXiv" %}
+{% elsif pub_type == "preprint" %}
+  {% assign venue_type = "preprint" %}
+  {% assign venue_label = post.venue | default: "Preprint" %}
 {% else %}
   {% assign venue_type = "journal" %}
   {% assign venue_label = post.venue %}
 {% endif %}
 
-<article class="pub-card{% unless post.figures and post.figures.size > 0 %} pub-card--no-media{% endunless %}" itemscope itemtype="http://schema.org/ScholarlyArticle">
+<article class="pub-card pub-card--{{ pub_type }}{% unless post.figures and post.figures.size > 0 %} pub-card--no-media{% endunless %}" data-pub-type="{{ pub_type }}" itemscope itemtype="http://schema.org/ScholarlyArticle">
   {% if post.figures and post.figures.size > 0 %}
     <div class="pub-card__media pub-card__media--{{ post.figures.size }}">
       {% for fig in post.figures %}

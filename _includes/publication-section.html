@@ -1,0 +1,45 @@
+{% comment %}
+  A collapsible group of publication cards.
+
+  Usage:
+    {% include publication-section.html type="publication" title="Publications" %}
+    {% include publication-section.html type="preprint" title="Preprints" collapsed=true %}
+
+  Parameters:
+    type         "publication" | "preprint"   (matched against publication-type.html)
+    title        heading shown in the toggle button
+    description  optional short muted text shown next to the title (hidden on narrow screens)
+    id           optional element id (defaults to the type), so /publications/#preprint works
+    collapsed    pass collapsed=true to start the section closed (default: open)
+{% endcomment %}
+{% include base_path %}
+
+{% assign pub_section_items = site.publications | sort: "date" | reverse %}
+{% assign pub_section_count = 0 %}
+{% for post in pub_section_items %}
+  {% include publication-type.html %}
+  {% if pub_type == include.type %}
+    {% assign pub_section_count = pub_section_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if pub_section_count > 0 %}
+<details class="pub-section pub-section--{{ include.type }}" id="{{ include.id | default: include.type }}"{% unless include.collapsed %} open{% endunless %}>
+  <summary class="pub-section__summary">
+    <span class="pub-section__chevron" aria-hidden="true"></span>
+    <h2 class="pub-section__title">{{ include.title }}</h2>
+    <span class="pub-section__count" aria-label="{{ pub_section_count }} items">{{ pub_section_count }}</span>
+    {% if include.description %}<span class="pub-section__desc">{{ include.description }}</span>{% endif %}
+    <span class="pub-section__toggle" aria-hidden="true"></span>
+  </summary>
+
+  <div class="pub-list">
+    {% for post in pub_section_items %}
+      {% include publication-type.html %}
+      {% if pub_type == include.type %}
+        {% include publication-card.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</details>
+{% endif %}

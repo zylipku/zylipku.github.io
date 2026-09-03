@@ -8,7 +8,7 @@ venue: 'Science Advances'
 paperurl: 'https://www.science.org/doi/abs/10.1126/sciadv.aef9406'
 # figures:
 #   - /publications/InContext/Figure1a.png
-citation: 'Wang, R., Jiang, J., <b>Li, Z.</b>, Liu, T., Wang, Y., Xie, M., & Piatkevich, K. D. (2026). Fluorescent protein ticker tape (FPTT): Multiplexed recording of transcriptional dynamics in living cells and in vivo. Science Advances 12,eaef9406'
+citation: 'Wang, R., Jiang, J., <b>Li, Z.</b>, Liu, T., Wang, Y., Xie, M., & Piatkevich, K. D. (2026). Fluorescent protein ticker tape (FPTT): Multiplexed recording of transcriptional dynamics in living cells and in vivo. Science Advances 12, eaef9406'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 

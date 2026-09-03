@@ -1,0 +1,138 @@
+/* ==========================================================================
+   PUBLICATION SECTIONS
+   Collapsible "Publications" / "Preprints" groups on /publications/.
+   Built on native <details>/<summary>, so no JavaScript is required.
+   ========================================================================== */
+
+.pub-section {
+  margin: 1.5em 0 0;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: mix(#fff, $lighter-gray, 55%);
+
+  + .pub-section {
+    margin-top: 1em;
+  }
+
+  > .pub-list {
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+/* The clickable header (rendered as a button-like bar) */
+.pub-section__summary {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.7em 1em;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  border-radius: $border-radius;
+  transition: background-color 0.15s ease;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &::marker {
+    content: "";
+  }
+
+  &:hover {
+    background: mix(#fff, $lighter-gray, 15%);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: -2px;
+  }
+}
+
+.pub-section[open] > .pub-section__summary {
+  border-bottom: 1px solid $border-color;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Chevron: points right when closed, down when open */
+.pub-section__chevron {
+  flex: 0 0 auto;
+  width: 0.5em;
+  height: 0.5em;
+  margin: 0 0.35em 0 0.1em;
+  border-right: 2px solid $gray;
+  border-bottom: 2px solid $gray;
+  transform: translateY(-15%) rotate(-45deg);
+  transition: transform 0.2s ease;
+}
+
+.pub-section[open] > .pub-section__summary .pub-section__chevron {
+  transform: translateY(-40%) rotate(45deg);
+}
+
+.pub-section__title {
+  margin: 0;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-4;
+  font-weight: bold;
+  line-height: 1.2;
+  border-bottom: none;
+  color: $text-color;
+}
+
+.pub-section__count {
+  display: inline-block;
+  min-width: 1.7em;
+  padding: 0.1em 0.55em;
+  border-radius: 999px;
+  background: mix(#fff, $gray, 75%);
+  color: $darker-gray;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.pub-section__desc {
+  display: none;
+  font-size: $type-size-6;
+  color: mix(#fff, $text-color, 35%);
+
+  @include breakpoint($medium) {
+    display: inline;
+    margin-left: 0.4em;
+  }
+}
+
+/* "Hide" / "Show" hint on the right-hand side */
+.pub-section__toggle {
+  margin-left: auto;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
+  color: $link-color;
+  white-space: nowrap;
+
+  &::after {
+    content: "Hide";
+  }
+}
+
+.pub-section:not([open]) > .pub-section__summary .pub-section__toggle::after {
+  content: "Show";
+}
+
+/* Print: always show everything */
+@media print {
+  .pub-section {
+    border: 0;
+    background: transparent;
+  }
+
+  .pub-section__toggle,
+  .pub-section__chevron {
+    display: none;
+  }
+}

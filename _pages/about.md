@@ -16,6 +16,6 @@ redirect_from:
 
 Machine learning in scientific computing, including
 
-* PDE solving and inverse problem
-* data assimilation and weather forecasting
-* sequence modeling
+* Deep learning for predictive and interpretable multiscale modeling
+* Inverse problems and uncertainty quantification
+* Numerical weather prediction and data assimilation
